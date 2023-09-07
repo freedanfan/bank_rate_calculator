@@ -7,7 +7,7 @@ def deng_e_ben_jin(total_num, nian_li_lv, month_num):
     :param month_num: 月数量
     :return:
     """
-    yue_li_lv = nian_li_lv / 12
+    yue_li_lv = nian_li_lv / 12 / 100
     meiyue_benjin = total_num / month_num
     shengyu_total_num =total_num
 
